@@ -5,6 +5,15 @@
 #include <stdarg.h>
 #include "main.h"
 
+#include "holberton.h"
+
+/**
+ * _printf - Produces output according to a format
+ * @format: string
+ *
+ * Return: The number of characters printed
+ **/
+
 int _printf(const char *format, ...)
 {
 	va_list cou;
@@ -26,5 +35,6 @@ int _printf(const char *format, ...)
 
 	return (size);
 }
+
 
 

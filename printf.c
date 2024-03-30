@@ -8,13 +8,23 @@
 int _printf(const char *format, ...)
 {
 	va_list cou;
-	unsigned int j = 0, i = 0;
+	int size;
 
 	if (format == NULL)
 	{
 		exit(98)
 	}
+	size = _strlen(format);
+	if (size <= 0)
+		return (0);
+
 	va_start(cou, format);
-	for (j = 0;*(format + j) != '\0'; j++)
+	size = handler(format, cou);
+
+	_putchar(-1);
+	va_end(cou);
+
+	return (size);
+}
 
 

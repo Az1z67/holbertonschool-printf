@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * Resurs: https://gist.github.com/narnat/95733cd0ad7bfac0d90697292914c407

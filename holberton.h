@@ -13,6 +13,8 @@ int buffer(char);
 int _strlen(const char *);
 int print(char *);
 
+char *itoa(long int, int);
+
 int handler(const char *, va_list);
 int percent_handler(const char *, va_list, int *);
 

@@ -17,6 +17,13 @@ int _strlen(const char *str)
 	return (i);
 }
 
+/**
+ * print - print char.
+ * @str: string.
+ *
+ * Return: string length.
+ */
+
 int print(char *str)
 {
 	int i;
